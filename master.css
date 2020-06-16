@@ -77,7 +77,7 @@ p{
 }
 
 /* for small sized devices - mediums*/
-@media (min-width: 375px) and (max-width: 980px){
+@media /*(min-width: 375px) and*/ (max-width: 980px){
   #bg-img2{
     display: block;
     position: absolute;
