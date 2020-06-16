@@ -4,11 +4,13 @@ body{
   font-weight: 400;
 }
 
-p{
-  margin-top: 15px;
-  text-align: justify;
-  font-size: 1.2em;
-  font-weight: 400;
+.attribution{
+  position: relative;
+  text-align: end;
+  bottom: 30px;
+  font-size: .6em;
+  margin-right: 20px;
+  margin-bottom: 0;
 }
 
 #bg-img1{
@@ -76,6 +78,13 @@ p{
   margin-top: 3%;
 }
 
+.text{
+  margin-top: 15px;
+  text-align: justify;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
 /* for small sized devices - mediums*/
 @media /*(min-width: 375px) and*/ (max-width: 980px){
   #bg-img2{
@@ -124,7 +133,7 @@ p{
     padding-right: 0;
   }
 
-  p{
+  .text{
     width: 90%;
     margin: auto auto 35px;
   }
